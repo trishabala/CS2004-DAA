@@ -1,0 +1,20 @@
+Trisha Balakrishnan
+21011102105
+
+In this graph, both Prim's and Kruskal's give the same minimum cost of 2. The paths are the same as well.
+All six nodes in this graph have an in degree greater than 0, so there is a path from the source node S to the remaining nodes.
+The algorithms give the minimum cost for this graph but they may not work in other directed graphs.
+
+For Dijkstra's Algorithm, we get the following values for paths from S to the remaining nodes A, B, C, D and E.
+
+S to
+A  B  C  D  E
+5  5  7  9  8
+
+If the graph was undirected, the values would be the following.
+
+S to 
+A  B  C  D  E
+5  6  4  9  8
+
+Thus, Dijkstra's Algorithm works differently for directed and undirected graphs.

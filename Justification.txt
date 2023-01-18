@@ -17,6 +17,6 @@ S to
 A  B  C  D  E
 5  5  4  3  8
 
-Thus, Dijkstra's Algorithm works differently for directed and undirected graphs.
+Thus, Dijkstra's Algorithm works differently for directed and undirected graphs. It also doesn't work for negative weights as the values would be very different if the negative weights were positive.
 
 I chose to write the programs in C because it runs faster and I find that it's more convenient to use arrays in C to organize my data.
